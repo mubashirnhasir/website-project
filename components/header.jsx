@@ -8,9 +8,9 @@ import { cn } from '@/lib/utils'
 import { useScroll } from 'motion/react'
 
 const menuItems = [
-    { name: 'Features', href: '#link' },
-    { name: 'Solution', href: '#link' },
-    { name: 'Pricing', href: '#link' },
+    { name: 'Home', href: '#link' },
+    { name: 'Recruitment Solution', href: '#link' },
+    { name: 'Support & proxy', href: '#link' },
     { name: 'About', href: '#link' },
 ]
 
@@ -22,7 +22,7 @@ export const HeroHeader = () => {
 
     React.useEffect(() => {
         const unsubscribe = scrollYProgress.on('change', (latest) => {
-            setScrolled(latest > 0.05)
+            setScrolled(latest > 0.02)
         })
         return () => unsubscribe();
     }, [scrollYProgress])
@@ -32,7 +32,7 @@ export const HeroHeader = () => {
             <nav
                 data-state={menuState && 'active'}
                 className={cn(
-                    'fixed z-20 w-full border-b transition-colors duration-150',
+                    'fixed z-100 w-full border-b transition-colors duration-150',
                     scrolled && 'bg-background/50 backdrop-blur-3xl'
                 )}>
                 <div className="mx-auto max-w-5xl px-6 transition-all duration-300">
@@ -40,7 +40,8 @@ export const HeroHeader = () => {
                         className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">
                         <div className="flex w-full items-center justify-between gap-12 lg:w-auto">
                             <Link href="/" aria-label="home" className="flex items-center space-x-2">
-                                <Logo />
+                               <img src="/abbrivationlogo.svg" className='h-16 w-16' alt="" />
+                               
                             </Link>
 
                             <button

@@ -7,28 +7,33 @@ export default function FAQsTwo() {
     const faqItems = [
         {
             id: 'item-1',
-            question: 'How long does shipping take?',
-            answer: 'Standard shipping takes 3-5 business days, depending on your location. Express shipping options are available at checkout for 1-2 business day delivery.',
+            question: 'What is job support?',
+            answer: 'Real-time expert help for professionals struggling with project tasks or deadlines.',
         },
         {
             id: 'item-2',
-            question: 'What payment methods do you accept?',
-            answer: 'We accept all major credit cards (Visa, Mastercard, American Express), PayPal, Apple Pay, and Google Pay. For enterprise customers, we also offer invoicing options.',
+            question: 'Is proxy interview service confidential?',
+            answer: 'Absolutely. We follow 100% confidentiality and never share client or candidate information.',
         },
         {
             id: 'item-3',
-            question: 'Can I change or cancel my order?',
-            answer: 'You can modify or cancel your order within 1 hour of placing it. After this window, please contact our customer support team who will assist you with any changes.',
+            question: 'What technologies do you support?',
+            answer: 'DevOps, Cloud, Java, Python, Salesforce, ServiceNow, SAP, Adobe Suite - AEP, CJA , QA, Data Engineering, and more.',
         },
         {
             id: 'item-4',
-            question: 'Do you ship internationally?',
-            answer: "Yes, we ship to over 50 countries worldwide. International shipping typically takes 7-14 business days. Additional customs fees may apply depending on your country's import regulations.",
+            question: 'Do you offer 24/7 assistance?',
+            answer: "Yes, our experts are available across all time zones for urgent help.",
         },
         {
             id: 'item-5',
-            question: 'What is your return policy?',
-            answer: 'We offer a 30-day return policy for most items. Products must be in original condition with tags attached. Some specialty items may have different return terms, which will be noted on the product page.',
+            question: 'How quickly can I start?',
+            answer: 'You can get matched with a domain expert and start receiving support within 30–60 minutes of Consultation.',
+        },
+        {
+            id: 'item-6',
+            question: 'What is a Proxy Interview Service?',
+            answer: 'It’s a confidential service where our qualified professionals represent you in client interviews, ensuring you perform confidently and secure the opportunity you deserve.',
         },
     ]
 
@@ -37,7 +42,6 @@ export default function FAQsTwo() {
             <div className="mx-auto max-w-5xl px-4 md:px-6">
                 <div className="mx-auto max-w-xl text-center">
                     <h2 className="text-balance text-3xl font-bold md:text-4xl lg:text-5xl">Frequently Asked Questions</h2>
-                    <p className="text-muted-foreground mt-4 text-balance">Discover quick and comprehensive answers to common questions about our platform, services, and features.</p>
                 </div>
 
                 <div className="mx-auto mt-12 max-w-xl">

@@ -10,7 +10,7 @@ export default function StatsSection() {
                 <div
                     className="grid gap-12 divide-y *:text-center md:grid-cols-5 md:gap-2 md:divide-x md:divide-y-0">
                     <div className="space-y-4">
-                        <div className="text-5xl font-bold">5+</div>
+                        <div className="text-5xl  font-bold">5+</div>
                         <p>Years of Industry Experience</p>
                     </div>
                     <div className="space-y-4">

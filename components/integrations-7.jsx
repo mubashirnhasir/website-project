@@ -18,22 +18,43 @@ export default function IntegrationsSection() {
                         <div>
                             <InfiniteSlider gap={24} speed={20} speedOnHover={10}>
                                 <IntegrationCard>
-                                    <VSCodium />
+                                    <img
+                                        className="mx-auto h-6 w-fit dark:invert"
+                                        src="/adobe.png"
+                                        alt="adobe Logo"
+                                        height="24"
+                                        width="auto" />
                                 </IntegrationCard>
                                 <IntegrationCard>
-                                    <MediaWiki />
+                                    <img
+                                        className="mx-auto h-6 w-fit dark:invert"
+                                        src="/physics.png"
+                                        alt="react Logo"
+                                        width="auto" />
                                 </IntegrationCard>
                                 <IntegrationCard>
-                                    <GooglePaLM />
+                                    <img
+                                        className="mx-auto h-6 w-fit dark:invert"
+                                        src="/devops.png"
+                                        alt="OpenAI Logo"
+                                        height="24"
+                                        width="auto" />
                                 </IntegrationCard>
                                 <IntegrationCard>
-                                    <Gemini />
+                                    <img
+                                        className="mx-auto h-6 w-fit dark:invert"
+                                        src="/logo.png"
+                                        alt="OpenAI Logo"
+                                        height="24"
+                                        width="auto" />
                                 </IntegrationCard>
                                 <IntegrationCard>
-                                    <Replit />
-                                </IntegrationCard>
-                                <IntegrationCard>
-                                    <MagicUI />
+                                    <img
+                                        className="mx-auto h-6 w-fit dark:invert"
+                                        src="/java.png"
+                                        alt="OpenAI Logo"
+                                        height="24"
+                                        width="auto" />
                                 </IntegrationCard>
                             </InfiniteSlider>
                         </div>
@@ -41,62 +62,100 @@ export default function IntegrationsSection() {
                         <div>
                             <InfiniteSlider gap={24} speed={20} speedOnHover={10} reverse>
                                 <IntegrationCard>
-                                    <Gemini />
+                                    <img
+                                        className="mx-auto h-6 w-fit dark:invert"
+                                        src="/adobe.png"
+                                        alt="adobe Logo"
+                                        height="24"
+                                        width="auto" />
                                 </IntegrationCard>
                                 <IntegrationCard>
-                                    <Replit />
+                                    <img
+                                        className="mx-auto h-6 w-fit dark:invert"
+                                        src="/physics.png"
+                                        alt="react Logo"
+                                        width="auto" />
                                 </IntegrationCard>
                                 <IntegrationCard>
-                                    <MediaWiki />
+                                    <img
+                                        className="mx-auto h-6 w-fit dark:invert"
+                                        src="/devops.png"
+                                        alt="OpenAI Logo"
+                                        height="24"
+                                        width="auto" />
                                 </IntegrationCard>
                                 <IntegrationCard>
-                                    <MagicUI />
+                                    <img
+                                        className="mx-auto h-6 w-fit dark:invert"
+                                        src="/logo.png"
+                                        alt="OpenAI Logo"
+                                        height="24"
+                                        width="auto" />
                                 </IntegrationCard>
                                 <IntegrationCard>
-                                    <VSCodium />
-                                </IntegrationCard>
-                                <IntegrationCard>
-                                    <GooglePaLM />
+                                    <img
+                                        className="mx-auto h-6 w-fit dark:invert"
+                                        src="/java.png"
+                                        alt="OpenAI Logo"
+                                        height="24"
+                                        width="auto" />
                                 </IntegrationCard>
                             </InfiniteSlider>
                         </div>
                         <div>
                             <InfiniteSlider gap={24} speed={20} speedOnHover={10}>
                                 <IntegrationCard>
-                                    <Replit />
+                                    <img
+                                        className="mx-auto h-6 w-fit dark:invert"
+                                        src="/adobe.png"
+                                        alt="adobe Logo"
+                                        height="24"
+                                        width="auto" />
                                 </IntegrationCard>
                                 <IntegrationCard>
-                                    <MagicUI />
+                                    <img
+                                        className="mx-auto h-6 w-fit dark:invert"
+                                        src="/physics.png"
+                                        alt="react Logo"
+                                        width="auto" />
                                 </IntegrationCard>
                                 <IntegrationCard>
-                                    <Gemini />
+                                    <img
+                                        className="mx-auto h-6 w-fit dark:invert"
+                                        src="/devops.png"
+                                        alt="OpenAI Logo"
+                                        height="24"
+                                        width="auto" />
                                 </IntegrationCard>
                                 <IntegrationCard>
-                                    <VSCodium />
+                                    <img
+                                        className="mx-auto h-6 w-fit dark:invert"
+                                        src="/logo.png"
+                                        alt="OpenAI Logo"
+                                        height="24"
+                                        width="auto" />
                                 </IntegrationCard>
                                 <IntegrationCard>
-                                    <MediaWiki />
-                                </IntegrationCard>
-                                <IntegrationCard>
-                                    <GooglePaLM />
+                                    <img
+                                        className="mx-auto h-6 w-fit dark:invert"
+                                        src="/java.png"
+                                        alt="OpenAI Logo"
+                                        height="24"
+                                        width="auto" />
                                 </IntegrationCard>
                             </InfiniteSlider>
                         </div>
                         <div className="absolute inset-0 m-auto flex size-fit justify-center gap-2">
                             <IntegrationCard
-                                className="shadow-black-950/10 size-16 bg-white/25 shadow-xl backdrop-blur-md backdrop-grayscale dark:border-white/10 dark:shadow-white/15"
+                                className="shadow-black-950/10 size-18 bg-white/60 shadow-xl backdrop-blur-md backdrop-grayscale dark:border-white/10 dark:shadow-white/15"
                                 isCenter={true}>
-                                <LogoIcon />
+                                <img src="/logodark.svg" alt="logo" />
                             </IntegrationCard>
                         </div>
                     </div>
                     <div className="mx-auto mt-12 max-w-lg space-y-6 text-center">
-                        <h2 className="text-balance text-3xl font-semibold md:text-4xl">Integrate with your favorite tools</h2>
-                        <p className="text-muted-foreground">Connect seamlessly with popular platforms and services to enhance your workflow.</p>
-
-                        <Button variant="outline" size="sm" asChild>
-                            <Link href="#">Get Started</Link>
-                        </Button>
+                        <h2 className="text-balance text-3xl font-semibold md:text-4xl">Available Across All Major Tech Stacks</h2>
+                        <p className="text-muted-foreground">We cover DevOps, Cloud, Data, Development, QA, and Automation — offering expert-level support across tools like AWS, Azure, Jenkins, Terraform, Docker, Kubernetes, Java, Python, Adobe Suite and more.</p>
                     </div>
                 </div>
             </div>
