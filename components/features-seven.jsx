@@ -17,12 +17,12 @@ export default function FeaturesSection() {
                         <Card variant="soft" className="col-span-full overflow-hidden pl-6 pt-6">
                             <Layout className="text-primary size-5" />
                             <h3 className="text-foreground mt-5 text-lg font-semibold">Real-Time Job Support</h3>
-                            <p className="text-muted-foreground mt-3 max-w-2xl text-balance">Get live 1-on-1 guidance from senior IT professionals to help you handle project challenges, debug code, deploy applications, or meet deadlines confidently without stress.
+                            <div className="text-muted-foreground mt-3 max-w-2xl text-balance">Get live 1-on-1 guidance from senior IT professionals to help you handle project challenges, debug code, deploy applications, or meet deadlines confidently without stress.
                                 <div className='flex flex-col py-2'>
                                     <span className='font-semi-bold text-black'> <span></span> Available 24/7</span>
                                     <span className='font-semi-bold text-black'>Project-based or hourly support</span>
                                 </div>
-                            </p>
+                            </div>
                             <div className="mask-b-from-95% -ml-2 -mt-2 mr-0.5 pl-2 pt-2">
                                 <div
                                     className="bg-background rounded-tl-(--radius) ring-foreground/5 relative mx-auto mt-8 h-96 overflow-hidden border border-transparent shadow ring-1">
