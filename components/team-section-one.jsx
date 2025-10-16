@@ -4,51 +4,51 @@ import { ChevronRight } from 'lucide-react'
 import Link from 'next/link'
 
 const members = [
-     {
-    src: 'https://avatars.githubusercontent.com/u/101?v=4',
-    name: 'Mubashir',
-    role: 'Founder & Software Engineer | Adobe Cloud Suite | Data Engineer',
-  },
-  {
-    src: 'https://avatars.githubusercontent.com/u/102?v=4',
-    name: 'Abdul Aziz Masood',
-    role: 'Technical Lead | Solution Architect',
-  },
-  {
-    src: 'https://avatars.githubusercontent.com/u/103?v=4',
-    name: 'Mohd Abbas',
-    role: 'Sr. DevOps Engineer',
-  },
-  {
-    src: 'https://avatars.githubusercontent.com/u/108?v=4',
-    name: 'Mohammad Affan',
-    role: 'DevOps, Cloud Engineer | AWS | CI/CD | Automation',
-  },
-  {
-    src: 'https://avatars.githubusercontent.com/u/104?v=4',
-    name: 'Yahya Bassam',
-    role: 'Frontend Engineer | React & Next.js',
-  },
-  {
-    src: 'https://avatars.githubusercontent.com/u/105?v=4',
-    name: 'Fauzaan Hussain',
-    role: 'Sr. DevOps Engineer',
-  },
-  {
-    src: 'https://avatars.githubusercontent.com/u/106?v=4',
-    name: 'Maaz',
-    role: 'Recruitment Specialist | IT & Tech Hiring',
-  },
-  {
-    src: 'https://avatars.githubusercontent.com/u/107?v=4',
-    name: 'Mahmood',
-    role: 'Project Coordinator | Operations & Delivery',
-  },
-  {
-    src: 'https://avatars.githubusercontent.com/u/108?v=4',
-    name: 'Talha',
-    role: 'Fullstack, Cloud & DevOps Engineer | AWS | CI/CD | Automation',
-  },
+    {
+        src: 'https://avatars.githubusercontent.com/u/101?v=4',
+        name: 'Mubashir',
+        role: 'Founder & Software Engineer | Adobe Cloud Suite | Data Engineer',
+    },
+    {
+        src: 'https://avatars.githubusercontent.com/u/102?v=4',
+        name: 'Abdul Aziz Masood',
+        role: 'Technical Lead | Solution Architect',
+    },
+    {
+        src: 'https://avatars.githubusercontent.com/u/103?v=4',
+        name: 'Mohd Abbas',
+        role: 'Sr. DevOps Engineer',
+    },
+    {
+        src: 'https://avatars.githubusercontent.com/u/108?v=4',
+        name: 'Mohammad Affan',
+        role: 'DevOps, Cloud Engineer | AWS | CI/CD | Automation',
+    },
+    {
+        src: 'https://avatars.githubusercontent.com/u/104?v=4',
+        name: 'Yahya Bassam',
+        role: 'Frontend Engineer | React & Next.js',
+    },
+    {
+        src: 'https://avatars.githubusercontent.com/u/105?v=4',
+        name: 'Fauzaan Hussain',
+        role: 'Sr. DevOps Engineer',
+    },
+    {
+        src: 'https://avatars.githubusercontent.com/u/106?v=4',
+        name: 'Maaz',
+        role: 'Recruitment Specialist | IT & Tech Hiring',
+    },
+    {
+        src: 'https://avatars.githubusercontent.com/u/107?v=4',
+        name: 'Mahmood',
+        role: 'Project Coordinator | Operations & Delivery',
+    },
+    {
+        src: 'https://avatars.githubusercontent.com/u/108?v=4',
+        name: 'Talha',
+        role: 'Fullstack, Cloud & DevOps Engineer | AWS | CI/CD | Automation',
+    },
 ]
 
 export default function TeamSection() {
@@ -59,12 +59,7 @@ export default function TeamSection() {
                     <div className="mb-12">
                         <h2 className="text-foreground text-4xl font-semibold">Meet Our Team</h2>
                         <p className="text-muted-foreground my-4 text-balance text-lg">Our talented professionals bring diverse expertise and passion to every project. Together, we collaborate to deliver exceptional results and innovative solutions for our clients.</p>
-                        {/* <Button asChild variant="outline" className="pr-2">
-                            <Link href="#">
-                                We're hiring
-                                <ChevronRight className="opacity-50" />
-                            </Link>
-                        </Button> */}
+
                     </div>
 
                     <div className="@sm:grid-cols-2 @xl:grid-cols-3 grid gap-6 md:gap-y-10">
@@ -82,7 +77,11 @@ export default function TeamSection() {
                                 </div>
                             </div>
                         ))}
+                        <div className='flex items-center justify-center p-2 rounded-lg font-semi-bold text-sm border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50'>
+                            And Many More
+                        </div>
                     </div>
+
                 </div>
             </div>
         </section>
