@@ -4,15 +4,51 @@ import { ChevronRight } from 'lucide-react'
 import Link from 'next/link'
 
 const members = [
-    { src: 'https://avatars.githubusercontent.com/u/47919550?v=4', name: 'Meschac Irung', role: 'Frontend Engineer' },
-    { src: 'https://avatars.githubusercontent.com/u/31113941?v=4', name: 'Bernard Ngandu', role: 'Backend Developer' },
-    { src: 'https://avatars.githubusercontent.com/u/68236786?v=4', name: 'Theo Balick', role: 'UI/UX Designer' },
-    { src: 'https://avatars.githubusercontent.com/u/99137927?v=4', name: 'Glodie Lukose', role: 'Project Manager' },
-    { src: 'https://avatars.githubusercontent.com/u/12345678?v=4', name: 'Sarah Johnson', role: 'DevOps Engineer' },
-    { src: 'https://avatars.githubusercontent.com/u/23456789?v=4', name: 'Michael Chen', role: 'QA Specialist' },
-    { src: 'https://avatars.githubusercontent.com/u/34567890?v=4', name: 'Aisha Patel', role: 'Data Scientist' },
-    { src: 'https://avatars.githubusercontent.com/u/45678901?v=4', name: 'Carlos Rodriguez', role: 'Product Manager' },
-    { src: 'https://avatars.githubusercontent.com/u/56789012?v=4', name: 'Emma Wilson', role: 'Content Strategist' },
+     {
+    src: 'https://avatars.githubusercontent.com/u/101?v=4',
+    name: 'Mubashir',
+    role: 'Founder & Software Engineer | Adobe Cloud Suite | Data Engineer',
+  },
+  {
+    src: 'https://avatars.githubusercontent.com/u/102?v=4',
+    name: 'Abdul Aziz Masood',
+    role: 'Technical Lead | Solution Architect',
+  },
+  {
+    src: 'https://avatars.githubusercontent.com/u/103?v=4',
+    name: 'Mohd Abbas',
+    role: 'Sr. DevOps Engineer',
+  },
+  {
+    src: 'https://avatars.githubusercontent.com/u/108?v=4',
+    name: 'Mohammad Affan',
+    role: 'DevOps, Cloud Engineer | AWS | CI/CD | Automation',
+  },
+  {
+    src: 'https://avatars.githubusercontent.com/u/104?v=4',
+    name: 'Yahya Bassam',
+    role: 'Frontend Engineer | React & Next.js',
+  },
+  {
+    src: 'https://avatars.githubusercontent.com/u/105?v=4',
+    name: 'Fauzaan Hussain',
+    role: 'Sr. DevOps Engineer',
+  },
+  {
+    src: 'https://avatars.githubusercontent.com/u/106?v=4',
+    name: 'Maaz',
+    role: 'Recruitment Specialist | IT & Tech Hiring',
+  },
+  {
+    src: 'https://avatars.githubusercontent.com/u/107?v=4',
+    name: 'Mahmood',
+    role: 'Project Coordinator | Operations & Delivery',
+  },
+  {
+    src: 'https://avatars.githubusercontent.com/u/108?v=4',
+    name: 'Talha',
+    role: 'Fullstack, Cloud & DevOps Engineer | AWS | CI/CD | Automation',
+  },
 ]
 
 export default function TeamSection() {
