@@ -23,12 +23,12 @@ export default function TeamSection() {
                     <div className="mb-12">
                         <h2 className="text-foreground text-4xl font-semibold">Meet Our Team</h2>
                         <p className="text-muted-foreground my-4 text-balance text-lg">Our talented professionals bring diverse expertise and passion to every project. Together, we collaborate to deliver exceptional results and innovative solutions for our clients.</p>
-                        <Button asChild variant="outline" className="pr-2">
+                        {/* <Button asChild variant="outline" className="pr-2">
                             <Link href="#">
                                 We're hiring
                                 <ChevronRight className="opacity-50" />
                             </Link>
-                        </Button>
+                        </Button> */}
                     </div>
 
                     <div className="@sm:grid-cols-2 @xl:grid-cols-3 grid gap-6 md:gap-y-10">

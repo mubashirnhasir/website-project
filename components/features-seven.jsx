@@ -16,13 +16,18 @@ export default function FeaturesSection() {
                     <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
                         <Card variant="soft" className="col-span-full overflow-hidden pl-6 pt-6">
                             <Layout className="text-primary size-5" />
-                            <h3 className="text-foreground mt-5 text-lg font-semibold">AI Code Generation</h3>
-                            <p className="text-muted-foreground mt-3 max-w-xl text-balance">Our advanced AI models transform natural language into production-ready code, streamlining development workflows and enabling faster iteration. </p>
+                            <h3 className="text-foreground mt-5 text-lg font-semibold">Real-Time Job Support</h3>
+                            <p className="text-muted-foreground mt-3 max-w-2xl text-balance">Get live 1-on-1 guidance from senior IT professionals to help you handle project challenges, debug code, deploy applications, or meet deadlines confidently without stress.
+                                <div className='flex flex-col py-2'>
+                                    <span className='font-semi-bold text-black'> <span></span> Available 24/7</span>
+                                    <span className='font-semi-bold text-black'>Project-based or hourly support</span>
+                                </div>
+                            </p>
                             <div className="mask-b-from-95% -ml-2 -mt-2 mr-0.5 pl-2 pt-2">
                                 <div
                                     className="bg-background rounded-tl-(--radius) ring-foreground/5 relative mx-auto mt-8 h-96 overflow-hidden border border-transparent shadow ring-1">
                                     <Image
-                                        src="/mist/tailark-2.png"
+                                        src="/heroimage.jpg"
                                         alt="app screen"
                                         width="2880"
                                         height="1842"
@@ -32,27 +37,36 @@ export default function FeaturesSection() {
                         </Card>
                         <Card variant="soft" className="overflow-hidden p-6">
                             <Target className="text-primary size-5" />
-                            <h3 className="text-foreground mt-5 text-lg font-semibold">AI Code Generation</h3>
-                            <p className="text-muted-foreground mt-3 text-balance">Our advanced AI models transform natural language into production-ready code.</p>
-
-                            <MeetingIllustration />
+                            <h3 className="text-foreground mt-5 text-lg font-semibold">Proxy Interview Support</h3>
+                            <p className="text-muted-foreground mt-3 text-balance">Need help during client interviews? Our domain experts can securely represent you and ensure a smooth technical discussion with complete confidentiality and expertise.</p>
+                                 <div className='flex flex-col py-2'>
+                                    <span className='font-semi-bold text-black'> <span></span> 100% Confidential Process</span>
+                                    <span className='font-semi-bold text-black'>Experts across DevOps, Adobe, Java, Cloud, and more</span>
+                                </div>
+                            {/* <MeetingIllustration /> */}
                         </Card>
 
                         <Card variant="soft" className="group overflow-hidden px-6 pt-6">
                             <CalendarCheck className="text-primary size-5" />
-                            <h3 className="text-foreground mt-5 text-lg font-semibold">Intelligent Code Review</h3>
-                            <p className="text-muted-foreground mt-3 text-balance">Our AI analyzes your code for bugs, security issues, and optimization opportunities.</p>
-
-                            <CodeReviewIllustration />
+                            <h3 className="text-foreground mt-5 text-lg font-semibold">IT Staffing & Recruitment</h3>
+                            <p className="text-muted-foreground mt-3 text-balance">We connect businesses with pre-vetted, project-ready professionals across multiple domains. Whether you’re hiring full-time, contract, or remote we deliver quality talent fast.</p>
+                                <div className='flex flex-col py-2'>
+                                    <span className='font-semi-bold text-black'> <span></span>Permanent & Contract Roles</span>
+                                    <span className='font-semi-bold text-black'>Global Talent Network</span>
+                                </div>
+                            {/* <CodeReviewIllustration /> */}
                         </Card>
                         <Card variant="soft" className="group overflow-hidden px-6 pt-6">
                             <Sparkles className="text-primary size-5" />
-                            <h3 className="text-foreground mt-5 text-lg font-semibold">Contextual AI Assistant</h3>
-                            <p className="text-muted-foreground mt-3 text-balance">A personalized AI companion that understands your codebase and helps solve complex...</p>
-
-                            <div className="mask-b-from-50 -mx-2 -mt-2 px-2 pt-2">
+                            <h3 className="text-foreground mt-5 text-lg font-semibold">Mentorship & Interview Prep</h3>
+                            <p className="text-muted-foreground mt-3 text-balance">Practice mock interviews, improve communication skills, and gain the confidence to handle real world interviews effectively with our personalized mentorship sessions.</p>
+                            <div className='flex flex-col py-2'>
+                                    <span className='font-semi-bold text-black'> <span></span>1-on-1 Coaching</span>
+                                    <span className='font-semi-bold text-black'>Customized Interview Scenarios</span>
+                                </div>
+                            {/* <div className="mask-b-from-50 -mx-2 -mt-2 px-2 pt-2">
                                 <AIAssistantIllustration />
-                            </div>
+                            </div> */}
                         </Card>
                     </div>
                 </div>
