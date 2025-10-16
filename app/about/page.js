@@ -10,7 +10,7 @@ import Pricing from "@/components/pricing";
 import StatsSection from "@/components/stats";
 import TeamSection from "@/components/team-section-one";
 import TestimonialSection from "@/components/testimonials-two";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
