@@ -8,10 +8,10 @@ import { cn } from '@/lib/utils'
 import { useScroll } from 'motion/react'
 
 const menuItems = [
-    { name: 'Home', href: '#link' },
-    { name: 'Recruitment Solution', href: '#link' },
-    { name: 'Support & proxy', href: '#link' },
-    { name: 'About', href: '#link' },
+    { name: 'Home', href: '/' },
+    { name: 'Recruitment Solution', href: '/recruitment' },
+    { name: 'Support & proxy', href: '/support' },
+    { name: 'About', href: '/about' },
 ]
 
 export const HeroHeader = () => {
