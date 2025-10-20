@@ -3,22 +3,39 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 export default function TestimonialSection() {
     const testimonials = [
         {
-            name: 'Méschac Irung',
-            role: 'Creator',
-            avatar: 'https://avatars.githubusercontent.com/u/47919550?v=4',
-            content: "Using Tailark has been like unlocking a secret design superpower. It's the perfect fusion of simplicity and versatility.",
+            name: 'Sohail Ahmed',
+            role: 'DevOps Engineer, Adobe (USA)',
+            avatar: 'https://randomuser.me/api/portraits/men/45.jpg',
+            content:
+                "The real-time support helped me solve CI/CD deployment challenges during my AWS migration project at Amazon. The mentor explained everything clearly and quickly.",
         },
         {
-            name: 'Théo Balick',
-            role: 'Frontend Dev',
-            avatar: 'https://avatars.githubusercontent.com/u/68236786?v=4',
-            content: 'Tailark has transformed the way I develop web applications. The flexibility to customize every aspect is amazing.',
+            name: 'Irfan Mohammad',
+            role: 'Java Developer, University of California (USA)',
+            avatar: 'https://randomuser.me/api/portraits/women/65.jpg',
+            content:
+                "The job support team was incredible! They helped me debug microservice communication issues in my Spring Boot application just before a major client demo.",
         },
         {
-            name: 'Glodie Lukose',
-            role: 'Frontend Dev',
-            avatar: 'https://avatars.githubusercontent.com/u/99137927?v=4',
-            content: 'The extensive collection of UI components has significantly accelerated my workflow. Tailark is a game-changer.',
+            name: 'Pooja',
+            role: 'Cloud Engineer, FIS (USA)',
+            avatar: 'https://randomuser.me/api/portraits/men/32.jpg',
+            content:
+                "I was new to Azure DevOps and pipelines, but with step-by-step guidance, I mastered it. The mentors were professionals with strong hands-on experience.",
+        },
+        {
+            name: 'Soham Patel',
+            role: 'QA Automation Engineer, AMFAM (USA)',
+            avatar: 'https://randomuser.me/api/portraits/women/48.jpg',
+            content:
+                "Their QA automation sessions were a lifesaver. I learned how to handle advanced Selenium and API frameworks — which directly improved my performance reviews.",
+        },
+        {
+            name: 'Jaffar Ahmed',
+            role: 'Site Reliability Engineer, ESRI (USA)',
+            avatar: 'https://randomuser.me/api/portraits/men/58.jpg',
+            content:
+                "The best thing about this team is the 24/7 availability. I reached out at midnight for urgent SRE troubleshooting, and they immediately joined to resolve it.",
         },
     ]
 
@@ -28,7 +45,9 @@ export default function TestimonialSection() {
                 <div className="@container mx-auto w-full max-w-5xl px-6">
                     <div className="mb-12">
                         <h2 className="text-foreground text-4xl font-semibold">What Our Clients Say</h2>
-                        <p className="text-muted-foreground my-4 text-balance text-lg">Discover why our clients love working with us. Read their testimonials about our dedication to excellence, innovative solutions, and exceptional customer service.</p>
+                        <p className="text-muted-foreground my-4 text-balance text-lg">
+                            Hear from IT professionals across top US companies who overcame complex technical challenges and interviews with our real-time project support.
+                        </p>
                     </div>
                     <div className="@lg:grid-cols-2 @3xl:grid-cols-3 grid gap-6">
                         {testimonials.map((testimonial, index) => (

@@ -36,7 +36,7 @@ export default function Pricing() {
               <hr className="border-dashed" />
               <ul className="list-outside space-y-3 text-sm">
                 {[
-                  'Live 1-on-1 Project Assistance',
+                  'Live 1-on-1 Assistance',
                   'Flexible Hourly Scheduling',
                   'Available Across Time Zones',
                   'Debugging & Deployment Support',
@@ -59,7 +59,7 @@ export default function Pricing() {
 
             <CardHeader>
               <CardTitle className="font-medium">Full-Time Dedicated Support</CardTitle>
-              <span className="my-3 block text-2xl font-semibold">$1199 / month</span>
+              <span className="my-3 block text-2xl font-semibold">$999 / month</span>
               <CardDescription className="text-sm">Continuous Expert Guidance & Assistance</CardDescription>
 
               <Button asChild className="mt-4 w-full bg-indigo-600 hover:bg-indigo-700">
@@ -76,10 +76,9 @@ export default function Pricing() {
                   'Priority Scheduling',
                   'Weekly Progress Tracking',
                   'Access to Senior Mentors',
-                  ' Interview Preparation',
+                  'Interview Preparation',
                   'Career Guidance Sessions',
                   'Multi-Stack Support (DevOps, Cloud, Java, etc.)',
-                  'Resume & Interview Optimization',
                   'Ongoing Technical Mentorship',
                 ].map((item, index) => (
                   <li key={index} className="flex items-center gap-2">
@@ -109,6 +108,7 @@ export default function Pricing() {
                 {[
                   'Handled by Domain Experts',
                   '100% Confidential Process',
+                  'Remote Access Coordination',
                   'US / UK / India Time Zone Coverage',
                   'Pre-Interview Briefing & Coordination',
                   'Post-Interview Follow-Up Guidance',
