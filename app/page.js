@@ -1,5 +1,4 @@
 "use client"
-import CallToAction from "@/components/call-to-action";
 import FAQsTwo from "@/components/faqs-2";
 import FeaturesSection from "@/components/features-seven";
 import FooterSection from "@/components/footer-one";
