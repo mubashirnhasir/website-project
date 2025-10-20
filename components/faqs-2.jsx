@@ -12,7 +12,7 @@ export default function FAQsTwo() {
         },
         {
             id: 'item-2',
-            question: 'Is proxy interview service confidential?',
+            question: 'Is  interview service confidential?',
             answer: 'Absolutely. We follow 100% confidentiality and never share client or candidate information.',
         },
         {
@@ -32,7 +32,7 @@ export default function FAQsTwo() {
         },
         {
             id: 'item-6',
-            question: 'What is a Proxy Interview Service?',
+            question: 'What is a  Interview Service?',
             answer: 'It’s a confidential service where our qualified professionals represent you in client interviews, ensuring you perform confidently and secure the opportunity you deserve.',
         },
     ]

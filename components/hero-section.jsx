@@ -53,7 +53,7 @@ export default function HeroSection() {
                                     speedSegment={0.3}
                                     as="h1"
                                     className="mt-8 max-w-2xl text-5xl font-medium md:text-6xl lg:mt-16">
-                                    Expert Job Support & Proxy Services for IT Professionals
+                                    Expert Job Support &  Services for IT Professionals
                                 </TextEffect>
                                 <TextEffect
                                     per="line"
@@ -63,7 +63,7 @@ export default function HeroSection() {
                                     as="p"
                                     className="mt-8 max-w-2xl text-pretty text-lg">
                                     Struggling with complex project tasks or high-pressure client interviews?
-                                    We provide end-to-end technical job support and proxy interview assistance across all major IT domains helping you perform confidently, meet deadlines, and grow your career.
+                                    We provide end-to-end technical job support and  interview assistance across all major IT domains helping you perform confidently, meet deadlines, and grow your career.
                                 </TextEffect>
 
                                 <AnimatedGroup

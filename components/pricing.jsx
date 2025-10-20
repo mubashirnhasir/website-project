@@ -14,7 +14,7 @@ export default function Pricing() {
             Flexible Pricing for Every Professional
           </h1>
           <p className="text-muted-foreground">
-            Choose between flexible hourly sessions, full-time dedicated expert support, or proxy interview assistance.  
+            Choose between flexible hourly sessions, full-time dedicated expert support, or  interview assistance.  
             Transparent. Confidential. Expert-led.
           </p>
         </div>
@@ -76,7 +76,7 @@ export default function Pricing() {
                   'Priority Scheduling',
                   'Weekly Progress Tracking',
                   'Access to Senior Mentors',
-                  'Proxy Interview Preparation',
+                  ' Interview Preparation',
                   'Career Guidance Sessions',
                   'Multi-Stack Support (DevOps, Cloud, Java, etc.)',
                   'Resume & Interview Optimization',
@@ -91,15 +91,15 @@ export default function Pricing() {
             </CardContent>
           </Card>
 
-          {/* PROXY INTERVIEW SUPPORT */}
+          {/*  INTERVIEW SUPPORT */}
           <Card className="flex flex-col">
             <CardHeader>
-              <CardTitle className="font-medium">Proxy Interview Support</CardTitle>
+              <CardTitle className="font-medium"> Interview Support</CardTitle>
               <span className="my-3 block text-2xl font-semibold">Starting at $299</span>
               <CardDescription className="text-sm">Confidential Interview Representation</CardDescription>
 
               <Button asChild variant="outline" className="mt-4 w-full">
-                <Link href="">Request Proxy</Link>
+                <Link href="">Request </Link>
               </Button>
             </CardHeader>
 

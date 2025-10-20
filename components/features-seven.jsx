@@ -37,7 +37,7 @@ export default function FeaturesSection() {
                         </Card>
                         <Card variant="soft" className="overflow-hidden p-6">
                             <Target className="text-primary size-5" />
-                            <h3 className="text-foreground mt-5 text-lg font-semibold">Proxy Interview Support</h3>
+                            <h3 className="text-foreground mt-5 text-lg font-semibold"> Interview Support</h3>
                             <p className="text-muted-foreground mt-3 text-balance">Need help during client interviews? Our domain experts can securely represent you and ensure a smooth technical discussion with complete confidentiality and expertise.</p>
                                  <div className='flex flex-col py-2'>
                                     <span className='font-semi-bold text-black'> <span></span> 100% Confidential Process</span>

@@ -9,9 +9,7 @@ import { useScroll } from 'motion/react'
 
 const menuItems = [
     { name: 'Home', href: '/' },
-    { name: 'Recruitment Solution', href: '/recruitment' },
-    { name: 'Support & proxy', href: '/support' },
-    { name: 'About', href: '/about' },
+    { name: 'IT Recruitment Solution', href: '/recruitment' },
 ]
 
 export const HeroHeader = () => {
