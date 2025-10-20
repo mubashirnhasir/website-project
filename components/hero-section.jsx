@@ -83,7 +83,7 @@ export default function HeroSection() {
                                         key={1}
                                         className="bg-foreground/10 hover:shadow-lg transition-all rounded-[calc(var(--radius-xl)+0.125rem)] border p-0.5">
                                         <Button asChild size="lg" className="rounded-xl px-5 text-base">
-                                            <Link href="#link">
+                                            <Link href="#contactForm">
                                                 <span className="text-nowrap">Get Job Support Now</span>
                                             </Link>
                                         </Button>

@@ -10,7 +10,6 @@ export default function HeroSection() {
         <section className="py-40">
             <div className="relative z-10 mx-auto w-full max-w-3xl px-6 lg:px-0">
                 <div className="relative text-center">
-                    <MistKitLogo className="mx-auto" />
                     <h1 className="mx-auto mt-16 max-w-xl text-balance text-5xl font-medium">
                         IT Recruitment — Coming Soon
                     </h1>

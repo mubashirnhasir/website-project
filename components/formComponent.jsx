@@ -61,7 +61,7 @@ export function ContactForm() {
 
 
   return (
-    <div className="w-full flex-col lg:flex-row flex lg:pl-20 items-center  justify-center">
+    <div id="contactForm" className="w-full flex-col lg:flex-row flex lg:pl-20 items-center  justify-center">
         <div className="heading flex items-center justify-center font-semibold lg:text-8xl lg: text-6xl">
             Contact Us
         </div>
