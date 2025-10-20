@@ -84,20 +84,10 @@ export default function HeroSection() {
                                         className="bg-foreground/10 hover:shadow-lg transition-all rounded-[calc(var(--radius-xl)+0.125rem)] border p-0.5">
                                         <Button asChild size="lg" className="rounded-xl px-5 text-base">
                                             <Link href="#link">
-                                                <span className="text-nowrap">Get Job Support</span>
+                                                <span className="text-nowrap">Get Job Support Now</span>
                                             </Link>
                                         </Button>
                                     </div>
-                                    <Button
-                                        key={2}
-                                        asChild
-                                        size="lg"
-                                        variant="ghost"
-                                        className="h-10.5 rounded-xl px-5 text-base">
-                                        <Link href="#link">
-                                            <span className="text-nowrap">Book a Consultation</span>
-                                        </Link>
-                                    </Button>
                                 </AnimatedGroup>
                             </div>
                         </div>
