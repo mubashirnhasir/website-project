@@ -22,7 +22,7 @@ export default function Home() {
       <IntegrationsSection />
       <FAQsTwo/>
       <TestimonialSection />
-      <CallToAction />
+      {/* <CallToAction /> */}
       <TeamSection/>
       <Pricing/>
       <ContactForm/>
