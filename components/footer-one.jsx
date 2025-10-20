@@ -3,29 +3,14 @@ import Link from 'next/link'
 
 const links = [
     {
-        title: 'Features',
+        title: 'Home',
         href: '#',
     },
     {
-        title: 'Solution',
+        title: 'IT Recruitment',
         href: '#',
     },
-    {
-        title: 'Customers',
-        href: '#',
-    },
-    {
-        title: 'Pricing',
-        href: '#',
-    },
-    {
-        title: 'Help',
-        href: '#',
-    },
-    {
-        title: 'About',
-        href: '#',
-    },
+
 ]
 
 export default function FooterSection() {
@@ -33,7 +18,7 @@ export default function FooterSection() {
         <footer className="bg-muted py-16">
             <div className="mx-auto max-w-5xl px-6">
                 <Link href="/" aria-label="go home" className="mx-auto block size-fit">
-                   <img src="/logoname.svg" alt="" />
+                    <img src="/logoname.svg" alt="" />
                 </Link>
 
                 <div className="my-8 flex flex-wrap justify-center gap-6">
@@ -47,7 +32,7 @@ export default function FooterSection() {
                     ))}
                 </div>
                 <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
-                    <Link
+                    {/* <Link
                         href="#"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -63,7 +48,7 @@ export default function FooterSection() {
                                 fill="currentColor"
                                 d="M10.488 14.651L15.25 21h7l-7.858-10.478L20.93 3h-2.65l-5.117 5.886L8.75 3h-7l7.51 10.015L2.32 21h2.65zM16.25 19L5.75 5h2l10.5 14z"></path>
                         </svg>
-                    </Link>
+                    </Link> */}
                     <Link
                         href="#"
                         target="_blank"
@@ -98,7 +83,7 @@ export default function FooterSection() {
                                 d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"></path>
                         </svg>
                     </Link>
-                    <Link
+                    {/* <Link
                         href="#"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -119,7 +104,7 @@ export default function FooterSection() {
                                 d="M19.25 8.505c-1.577-5.867-7-5.5-7-5.5s-7.5-.5-7.5 8.995s7.5 8.996 7.5 8.996s4.458.296 6.5-3.918c.667-1.858.5-5.573-6-5.573c0 0-3 0-3 2.5c0 .976 1 2 2.5 2s3.171-1.027 3.5-3c1-6-4.5-6.5-6-4"
                                 color="currentColor"></path>
                         </svg>
-                    </Link>
+                    </Link> */}
                     <Link
                         href="#"
                         target="_blank"
@@ -138,24 +123,30 @@ export default function FooterSection() {
                         </svg>
                     </Link>
                     <Link
-                        href="#"
+                        href="https://wa.me/8985098161" // <-- replace with your real WhatsApp number (in international format)
                         target="_blank"
                         rel="noopener noreferrer"
-                        aria-label="TikTok"
-                        className="text-muted-foreground hover:text-primary block">
+                        aria-label="WhatsApp"
+                        className="text-muted-foreground hover:text-gray-800 flex items-center gap-2"
+                    >
                         <svg
-                            className="size-6"
+                            className="size-5"
                             xmlns="http://www.w3.org/2000/svg"
                             width="1em"
                             height="1em"
-                            viewBox="0 0 24 24">
+                            viewBox="0 0 24 24"
+                        >
                             <path
                                 fill="currentColor"
-                                d="M16.6 5.82s.51.5 0 0A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6c0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64c0 3.33 2.76 5.7 5.69 5.7c3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48"></path>
+                                d="M20.52 3.48A11.82 11.82 0 0 0 12.06 0C5.47 0 .03 5.44.03 12.03c0 2.12.56 4.2 1.62 6.02L0 24l6.12-1.58a11.93 11.93 0 0 0 5.93 1.52h.01c6.6 0 12.03-5.44 12.03-12.03c0-3.21-1.25-6.23-3.57-8.43zM12.06 21.2a9.1 9.1 0 0 1-4.63-1.27l-.33-.2l-3.63.94l.97-3.54l-.23-.36a9.16 9.16 0 0 1-1.41-4.86c0-5.06 4.12-9.18 9.18-9.18c2.45 0 4.76.95 6.49 2.67a9.09 9.09 0 0 1 2.69 6.52a9.2 9.2 0 0 1-9.18 9.18zm5.17-6.9c-.28-.14-1.65-.82-1.91-.91c-.26-.1-.45-.14-.64.14c-.19.28-.74.91-.9 1.1c-.17.19-.33.21-.61.07a7.52 7.52 0 0 1-2.21-1.36a8.23 8.23 0 0 1-1.53-1.9c-.16-.27-.02-.42.12-.57c.13-.13.27-.33.4-.5c.14-.17.19-.28.28-.47c.09-.19.04-.35-.02-.5c-.07-.14-.64-1.55-.88-2.13c-.23-.56-.47-.48-.64-.49h-.55c-.19 0-.5.07-.76.35s-1 1-1 2.43s1.03 2.83 1.18 3.02c.14.19 2.03 3.1 4.92 4.34c.69.3 1.23.48 1.65.61c.69.22 1.31.19 1.8.12c.55-.08 1.65-.67 1.88-1.31c.23-.64.23-1.18.16-1.3c-.07-.11-.25-.18-.53-.32z"
+                            />
                         </svg>
+                        <span className="text-sm font-medium">+91 8985098161 </span>
                     </Link>
+
+
                 </div>
-                <span className="text-muted-foreground block text-center text-sm"> © {new Date().getFullYear()} Tailark Mist, All rights reserved</span>
+                <span className="text-muted-foreground block text-center text-sm"> © {new Date().getFullYear()} Ninja Job Support, All rights reserved</span>
             </div>
         </footer>
     );
