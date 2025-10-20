@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Ninja Job Support",
-  description: "",
+  description: "Ninja job support",
 };
 
 export default function RootLayout({ children }) {
@@ -23,7 +23,6 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        
         {children}
         <Analytics/>
       </body>
