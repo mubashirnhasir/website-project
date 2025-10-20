@@ -28,7 +28,7 @@ export default function Pricing() {
               <CardDescription className="text-sm">1-on-1 Real-Time Expert Session</CardDescription>
 
               <Button asChild variant="outline" className="mt-4 w-full">
-                <Link href="">Book Now</Link>
+                <Link href="#contactForm">Book Now</Link>
               </Button>
             </CardHeader>
 
@@ -63,7 +63,7 @@ export default function Pricing() {
               <CardDescription className="text-sm">Continuous Expert Guidance & Assistance</CardDescription>
 
               <Button asChild className="mt-4 w-full bg-indigo-600 hover:bg-indigo-700">
-                <Link href="">Get Started</Link>
+                <Link href="#contactForm">Get Started</Link>
               </Button>
             </CardHeader>
 
@@ -98,7 +98,7 @@ export default function Pricing() {
               <CardDescription className="text-sm">Confidential Interview Representation</CardDescription>
 
               <Button asChild variant="outline" className="mt-4 w-full">
-                <Link href="">Request </Link>
+                <Link href="#contactForm">Request </Link>
               </Button>
             </CardHeader>
 
