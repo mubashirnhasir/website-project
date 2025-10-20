@@ -1,5 +1,4 @@
 "use client"
-
 import { z } from "zod"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
@@ -40,10 +39,26 @@ export function ContactForm() {
     },
   })
 
-  const onSubmit = (data) => {
-    console.log("Form Data:", data)
-    // 👉 You can send data to your backend or email API here
+ const onSubmit = async (data) => {
+  try {
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
+    })
+
+    const result = await res.json()
+    if (result.success) {
+      alert("✅ Form submitted successfully! We'll reach out soon.")
+    } else {
+      alert("❌ Failed to send message. Please try again.")
+    }
+  } catch (error) {
+    console.error(error)
+    alert("⚠️ Something went wrong.")
   }
+}
+
 
   return (
     <div className="w-full flex-col lg:flex-row flex lg:pl-20 items-center  justify-center">
