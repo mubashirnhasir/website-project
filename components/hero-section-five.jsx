@@ -11,11 +11,11 @@ export default function HeroSection() {
             <div className="relative z-10 mx-auto w-full max-w-3xl px-6 lg:px-0">
                 <div className="relative text-center">
                     <h1 className="mx-auto mt-16 max-w-xl text-balance text-5xl font-medium">
-                        IT Recruitment — Coming Soon
+                        IT Recruitment - Coming Soon
                     </h1>
 
                     <p className="text-muted-foreground mx-auto mb-6 mt-4 text-balance text-xl">
-                        We’re building our next-gen IT Recruitment platform focused on
+                        We’re building our next gen IT Recruitment platform focused on
                         <br />
                         <strong>Onshore</strong>, <strong>Offshore</strong>, <strong>W2</strong>, <strong>C2C</strong>, and <strong>Full-Time</strong> hiring solutions.
                         Connecting top IT talent with leading organizations worldwide — faster, smarter, and more efficiently.
